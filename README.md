@@ -10,9 +10,23 @@ The package is installable on Python 3.x and can be installed using:
 
 ```pip install SMBH```
 
-Access the functions by writing:
-```Import SMBH.entery```
-```import SMBH.classify```
+## Use Example
+
+The mass_luminosity_function (SMBH) package includes some functions, to load the data and then calculate and plot the mass luminosity function for quasars to know its evolution over cosmic time. 
+Here's an example of how to use it:
+
+```
+from SMBH import entery
+from SMBH import classify
+
+# Load observational data
+data = entery(RA,DEC,Z,M,LB)
+
+#classify the quasars to subsets at different redshift and masses
+subsets= classify(data)
+
+# Plot the mass-luminosity function
+```
 
 ## Description of the functions
 ```Entery``` function
