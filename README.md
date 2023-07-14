@@ -18,11 +18,13 @@ Here's an example of how to use it:
 ```
 from SMBH import entery
 from SMBH import classify
+from SMBH import Mmean
+from SMBH import Bmean
 
 # Load observational data
 data = entery(RA,DEC,Z,M,LB)
 
-#classify the quasars to subsets at different redshift and masses
+#classify the quasars to subsets at different redshifts and masses
 subsets = classify(data)
 
 # Plot the mass-luminosity function
