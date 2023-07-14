@@ -1,8 +1,8 @@
 # SMBH
 
-## Motivation
+## Introduction and Motivation
 
-The motivation for developing this package is to plot the mass and luminosity functions of quasers. This helps to understand the evolution of mass with the redshift ovver cosmic time.
+The mass_luminosity_function is a Python package for calculating the mass-luminosity function of quasars. The mass-luminosity function is an important statistical relationship between the masses of supermassive black holes (SMBHs) at the centers of galaxies and the luminosities of the quasars
 
 ## Installation
 
