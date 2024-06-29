@@ -4,7 +4,7 @@ import numpy
 setup(
     name='DR16_MassFunction',
     version="1.0.0",
-    description="calculting the mass-luminosity functions of quasars on DR16 catalog",
+    description="calculating the mass-luminosity functions of quasars on any complete catalog",
     packages=find_packages(),
     license="LICENSE",
     incluce_package_data=True,
